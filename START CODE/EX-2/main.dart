@@ -2,16 +2,21 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Container(
-      margin: EdgeInsets.all(),
-      padding: EdgeInsets,
+    home: Container(  
       color:Colors.blue[600],
       width:,
       height:,
     ), 
-    
-    
-    child: Container
+    margin: EdgeInsets.all(),
+    padding: EdgeInsets()
+    child: Container(
+      decoration: BoxDecoration(
+        child: Center( 
+          child: Text "CADT STUDENT",
+          style: TextStyle
+        )
+      )
+    )
     
  
     
