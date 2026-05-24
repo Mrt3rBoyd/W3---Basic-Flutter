@@ -4,23 +4,24 @@ void main() {
   runApp(MaterialApp(
     home: Container(  
       color:Colors.blue[600],
-      width:,
-      height:,
+      width:300,
+      height:500,
     ), 
     margin: EdgeInsets.all(),
-    padding: EdgeInsets()
-    child: Container(
-      decoration: BoxDecoration(
-        child: Center( 
-          child: Text "CADT STUDENT",
-          style: TextStyle
+    padding: EdgeInsets(),
+      child: Container(
+        decoration: BoxDecoration(
+          child: Center( 
+            child: Text "CADT STUDENT",
+            style: TextStyle
+          )
         )
-      )
-    )
+      )  
     
  
     
-  ));
+    )
+  )
 }
 
 /*
