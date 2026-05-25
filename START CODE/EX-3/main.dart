@@ -16,7 +16,7 @@ void main() {
               ),
             ),
           ),
-          Container1( 
+          Container( 
             decoration: BoxDecoration(
               borderRadius: BorderRadius
             ),
@@ -26,10 +26,10 @@ void main() {
               ),
             ),
           ),
-          Container2( 
+          Container( 
             decoration: BoxDecoration(
               borderRadius: BorderRadius
-            )
+            ),
             child: Center(
               child: Text( 
                 'FLUTTER', style: TextStyle()            
