@@ -1,4 +1,4 @@
-/*
+
 
 //Ex1
 import "package:flutter/material.dart";
@@ -7,37 +7,15 @@ void main() {
     const MaterialApp(
       home: Scaffold(
         body: Text(
-          "Hello my name is Ronan!",
-          
-          
+          'Hello my name is Ronan!',
+          style: TextStyle(
+            color: Colors.red
+          ),
         ),
       ),
     ),
   );
 } 
-
-
-//Scaffold-class.html
-//Center-class.html
-//Text (widgets/text)
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -67,38 +45,7 @@ void main() {
   ),
 }
 
-/*
-Container class
-BoxDecoration 
-EdgeInsets 
-Text widget 
-TextStyle 
-Center 
-(Optional) Column 
 */
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -148,16 +95,5 @@ void main() {
   ));
 }
 
-
-
-/*
-Container class
-Column class
-BoxDecoration 
-LinearGradient 
-EdgeInsets 
-Text widget
-Alignment 
-*/
 
 */
