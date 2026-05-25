@@ -13,19 +13,19 @@ void main() {
             child: Center(
               child: Text( 
                 'OOP', style: TextStyle()            
-              )
-            )
-          )
+              ),
+            ),
+          ),
           Container1( 
             decoration: BoxDecoration(
               borderRadius: BorderRadius
-            )
+            ),
             child: Center(
               child: Text( 
                 'DART', style: TextStyle()            
-              )
-            )
-          )
+              ),
+            ),
+          ),
           Container2( 
             decoration: BoxDecoration(
               borderRadius: BorderRadius
@@ -33,12 +33,11 @@ void main() {
             child: Center(
               child: Text( 
                 'FLUTTER', style: TextStyle()            
-              )
-            )
-          )
+              ),
+            ),
+          ),
         ]
-
-      )
+      ),
     ),
   ));
 }
